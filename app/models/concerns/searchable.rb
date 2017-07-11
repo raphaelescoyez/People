@@ -5,7 +5,7 @@ module Searchable
     include PgSearch
     pg_search_scope :attributes_cont_any,
                     against:            {
-                        first_name:     'A',
+                        first_name:     'B',
                         last_name:      'A',
                         job_title:      'B',
                         email:          'C',
